@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/* on the Cazoo host
+host: https://www.cazoo.co.uk
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published. Cazoo entered
+  administration in 2024 and operates no public developer/API surface; the
+  consumer site is behind bot protection (HTTP 429). Absence recorded as valid
+  negative data — no pointer wired.

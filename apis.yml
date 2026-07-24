@@ -1,8 +1,25 @@
 aid: cazoo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cazoo.png
 name: Cazoo
-description: 'Cazoo is a company surfaced as a portfolio company of d1-capital, general-catalyst, sapphire-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Cazoo was a UK online used-car retailer founded in 2018 by Alex Chesterman, offering
+  a direct-to-consumer platform to buy, sell, and finance used cars fully online with home delivery.
+  The company listed on the New York Stock Exchange via a SPAC merger in 2021 before restructuring and
+  entering administration in 2024; its consumer marketplace brand was subsequently sold. Cazoo was
+  surfaced as a portfolio company of D1 Capital, General Catalyst, and Sapphire Ventures and added to
+  the API Evangelist network for enrichment. No public developer portal or API surface was found during
+  enrichment: the site is behind bot protection (HTTP 429) and no /.well-known/ discovery documents are
+  published. Sector: ecommerce / automotive retail.'
 url: https://raw.githubusercontent.com/api-evangelist/cazoo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ecommerce
+- Automotive
+- Used Cars
+- Retail
+- Marketplace
+- Consumer Finance
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cazoo-domain-security.yml
 - type: Website
   url: https://www.cazoo.co.uk
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
