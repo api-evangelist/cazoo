@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "cazoo",
+    "captured_at": "2026-10-11T183831",
+    "source_url": "https://www.cazoo.co.uk",
+    "source_type": "Website",
+    "file": "cazoo-2026-10-11T183831.png",
+    "bytes": 373442,
+    "capture": "playwright-local"
+  }
+]
